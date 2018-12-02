@@ -34,4 +34,14 @@ public class Grad {
     public void setTemperature(double[] temperature) {
         this.temperature = temperature;
     }
+
+    @Override
+    public String toString() {
+        String s = naziv + "\n" + brojStanovnika + "\n";
+        for(int i = 0; i < temperature.length; i++) {
+            s += temperature[i];
+            s += "\n";
+        }
+        return s;
+    }
 }
