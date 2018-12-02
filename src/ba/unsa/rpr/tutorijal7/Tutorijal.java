@@ -7,11 +7,14 @@ import java.util.Scanner;
 
 public class Tutorijal {
     public static void main(String[] args) {
-        Tutorijal.ucitajGradove();
+        ArrayList<Grad> gradovi = Tutorijal.ucitajGradove();
+        for(var x : gradovi) {
+            System.out.println(x);
+        }
     }
 
     public static ArrayList<Grad> ucitajGradove() {
-        ArrayList<Grad> gradovi = new ArrayList<Grad>();
+        ArrayList<Grad> gradovi = new ArrayList<>();
         Scanner ulaz;
         try {
             ulaz = new Scanner(new FileReader("mjerenja.txt"));
