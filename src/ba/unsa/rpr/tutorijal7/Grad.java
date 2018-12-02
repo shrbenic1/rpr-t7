@@ -3,9 +3,12 @@ package ba.unsa.rpr.tutorijal7;
 public class Grad {
     private String naziv;
     private int brojStanovnika;
-    private double[] temperature = new double[1000];
+    private double[] temperature;
 
     public Grad() {
+        naziv = "";
+        brojStanovnika = 0;
+        temperature = new double[1000];
     }
 
     public String getNaziv() {
