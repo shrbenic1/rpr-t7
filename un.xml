@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="10.0.2" class="java.beans.XMLDecoder">
+ <object class="ba.unsa.rpr.tutorijal7.UN" id="UN0">
+  <void property="drzave">
+   <void method="add">
+    <object class="ba.unsa.rpr.tutorijal7.Drzava">
+     <void property="brojStanovnika">
+      <int>3500000</int>
+     </void>
+     <void property="glavniGrad">
+      <object class="ba.unsa.rpr.tutorijal7.Grad">
+       <void property="brojStanovnika">
+        <int>400000</int>
+       </void>
+       <void property="naziv">
+        <string>Sarajevo</string>
+       </void>
+       <void property="temperature">
+        <array class="double" length="5">
+         <void index="0">
+          <double>5.4</double>
+         </void>
+         <void index="1">
+          <double>15.8</double>
+         </void>
+         <void index="2">
+          <double>2.3</double>
+         </void>
+         <void index="3">
+          <double>0.44</double>
+         </void>
+         <void index="4">
+          <double>-1.1</double>
+         </void>
+        </array>
+       </void>
+      </object>
+     </void>
+     <void property="jedinicaZaPovrsinu">
+      <string>km2</string>
+     </void>
+     <void property="naziv">
+      <string>Bosna i Hercegovina</string>
+     </void>
+     <void property="povrsina">
+      <double>51129.0</double>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ba.unsa.rpr.tutorijal7.Drzava">
+     <void property="brojStanovnika">
+      <int>4298889</int>
+     </void>
+     <void property="glavniGrad">
+      <object class="ba.unsa.rpr.tutorijal7.Grad">
+       <void property="brojStanovnika">
+        <int>802338</int>
+       </void>
+       <void property="naziv">
+        <string>Zagreb</string>
+       </void>
+       <void property="temperature">
+        <array class="double" length="0"/>
+       </void>
+      </object>
+     </void>
+     <void property="jedinicaZaPovrsinu">
+      <string>km2</string>
+     </void>
+     <void property="naziv">
+      <string>Hrvatska</string>
+     </void>
+     <void property="povrsina">
+      <double>56594.0</double>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
