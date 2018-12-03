@@ -7,9 +7,9 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.beans.XMLDecoder;
+import java.beans.XMLEncoder;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -20,6 +20,7 @@ public class Tutorijal {
             System.out.println(x);
         }
         UN un = Tutorijal.ucitajXml(gradovi);
+        Tutorijal.zapisiXml(un);
     }
 
     public static ArrayList<Grad> ucitajGradove() {
@@ -125,6 +126,13 @@ public class Tutorijal {
     }
 
     public static void zapisiXml(UN un) {
-
+        try {
+            XMLEncoder izlaz = new XMLEncoder(new FileOutputStream("un.xml"));
+            izlaz.writeObject(un);
+            izlaz.close();
+        } catch(Exception e) {
+            System.out.println("Greška: " + e);
+            System.exit(1);
+        }
     }
 }
