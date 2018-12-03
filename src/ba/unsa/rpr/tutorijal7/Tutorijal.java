@@ -123,4 +123,8 @@ public class Tutorijal {
         un.setDrzave(spisakDrzava);
         return un;
     }
+
+    public static void zapisiXml(UN un) {
+
+    }
 }
