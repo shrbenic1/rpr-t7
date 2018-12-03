@@ -1,9 +1,10 @@
 package ba.unsa.rpr.tutorijal7;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UN {
+public class UN implements Serializable {
     private List<Drzava> drzave = new ArrayList<>();
 
     public UN() {
