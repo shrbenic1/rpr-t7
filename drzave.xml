@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <drzave>
     <drzava stanovnika="3500000">
         <naziv>Bosna i Hercegovina</naziv>
@@ -5,7 +6,7 @@
             <naziv>Sarajevo</naziv>
         </glavnigrad>
         <povrsina jedinica="km2">51129</povrsina>
-        <moneta naziv="KM" />
+        <moneta naziv="KM"/>
     </drzava>
     <drzava stanovnika="4298889">
         <naziv>Hrvatska</naziv>
@@ -13,6 +14,6 @@
             <naziv>Zagreb</naziv>
         </glavnigrad>
         <povrsina jedinica="km2">56594</povrsina>
-        <moneta naziv="HRK" />
+        <moneta naziv="HRK"/>
     </drzava>
 </drzave>
